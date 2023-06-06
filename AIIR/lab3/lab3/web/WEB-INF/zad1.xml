@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteka>
+    <aktorzy>
+        <aktor id="1">
+            <nazwisko>Pitt</nazwisko>
+            <imie>Brad</imie>
+            <plec>Mężczyzna</plec>
+            <data_urodzenia>1963-12-18</data_urodzenia>
+        </aktor>
+        <aktor id="2">
+            <nazwisko>Jolie</nazwisko>
+            <imie>Angelina</imie>
+            <plec>Kobieta</plec>
+            <data_urodzenia>1975-06-04</data_urodzenia>
+        </aktor>
+        <aktor id="3">
+            <nazwisko>Hanks</nazwisko>
+            <imie>Tom</imie>
+            <plec>Mężczyzna</plec>
+            <data_urodzenia>1956-07-09</data_urodzenia>
+        </aktor>
+        <aktor id="4">
+            <nazwisko>Winslet</nazwisko>
+            <imie>Kate</imie>
+            <plec>Kobieta</plec>
+            <data_urodzenia>1975-10-05</data_urodzenia>
+        </aktor>
+        <aktor id="5">
+            <nazwisko>DiCaprio</nazwisko>
+            <imie>Leonardo</imie>
+            <plec>Mężczyzna</plec>
+            <data_urodzenia>1974-11-11</data_urodzenia>
+        </aktor>
+    </aktorzy>
+    <filmy>
+        <film id="1">
+            <nazwa>Ojciec chrzestny</nazwa>
+            <rok_premiery>1972</rok_premiery>
+            <gatunki>
+                <gatunek>Dramat</gatunek>
+                <gatunek>Kryminał</gatunek>
+            </gatunki>
+            <obsada>
+                <rola idAktora="1">Michael Corleone</rola>
+                <rola idAktora="2">Lisa Minnelli</rola>
+            </obsada>
+        </film>
+        <film id="2">
+            <nazwa>Incepcja</nazwa>
+            <rok_premiery>2010</rok_premiery>
+            <gatunki>
+                <gatunek>Sci-Fi</gatunek>
+                <gatunek>Thriller</gatunek>
+            </gatunki>
+            <obsada>
+                <rola idAktora="5">Dominick "Dom" Cobb</rola>
+                <rola idAktora="4">Rose DeWitt Bukater</rola>
+            </obsada>
+        </film>
+        <film id="3">
+            <nazwa>Forrest Gump</nazwa>
+            <rok_premiery>1994</rok_premiery>
+            <gatunki>
+                <gatunek>Dramat</gatunek>
+                <gatunek>Komedia</gatunek>
+            </gatunki>
+            <obsada>
+                <rola idAktora="3">Forrest Gump</rola>
+                <rola idAktora="4">Jenny Curran</rola>
+            </obsada>
+        </film>
+    </filmy>
+</filmoteka>
+
